@@ -14,7 +14,6 @@ public class Controlador implements ICambiarTexto {
 
     public Controlador(Vista vista, Modelo modelo) {
 
-        this.listener = listener;
         this.listener = new MyListener(this);
         this.vista = vista;
         this.modelo = modelo;
